@@ -20,3 +20,6 @@ Set-PSReadLineOption -EditMode Windows
 function sudo {
     Start-Process pwsh -Verb RunAs -ArgumentList "-Command $args"
 }
+function logout {
+    exit
+}
