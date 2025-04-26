@@ -1,4 +1,4 @@
 [opener]
 edit = [
-  { run = 'code', block = true, for = 'windows' },
+  { run = 'nvim %0', block = true, for = 'windows' },
 ]
