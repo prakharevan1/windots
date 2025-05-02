@@ -22,7 +22,7 @@ vim.api.nvim_set_keymap("n", "<C-s>", ":w<CR>", {})
 
 -- automatically run screenkeys
 vim.api.nvim_create_autocmd("VimEnter", {
-	callback = function()
-		vim.cmd("Screenkey toggle")
-	end,
+    callback = function()
+        vim.cmd("Screenkey toggle")
+    end,
 })
